@@ -26,7 +26,7 @@ from tensorflow.keras.utils import to_categorical
 from keras.utils import np_utils
 from sklearn.preprocessing import LabelBinarizer
 from sklearn.model_selection import train_test_split
-from dunkyimages.smallervggnet import SmallerVGGNet
+from dunkyimages.cassavavggnet import CassavaVGGNet
 from sklearn.metrics import classification_report
 import matplotlib.pyplot as plt
 from keras.models import load_model
