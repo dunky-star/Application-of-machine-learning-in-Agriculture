@@ -15,7 +15,6 @@ from dunkyimages.callbacks.epochcheckpoint import EpochCheckpoint
 from dunkyimages.callbacks.trainingmonitor import TrainingMonitor
 from keras.preprocessing.image import img_to_array
 from keras.optimizers import Adam
-from keras.optimizers import SGD
 from dunkyimages.learningratefinder import LearningRateFinder
 from dunkyimages.clr_callback import CyclicLR
 from sklearn.utils import class_weight
