@@ -76,7 +76,7 @@ healthyData = load_dataset(config.DATASET_PATH_HEALTHY)
 infectedLabels = np.ones((infectedData.shape[0],))
 healthyLabels = np.zeros((healthyData.shape[0],))
  
-# stack the fire data with the non-fire data, then scale the data
+# stack the healthy cassva data with the non-healthy cassava data, then scale the data
 # to the range [0, 1]
 data = np.vstack([infectedData, healthyData])
 labels = np.hstack([infectedLabels, healthyLabels])
